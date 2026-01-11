@@ -1,0 +1,11 @@
+{
+  "test_name": "TummyTales home title",
+  "url": "https://tummytales.info",
+  "steps": [
+    {
+      "type": "verify",
+      "selector": "h1.site-title",
+      "expected": "Tummy Tales"
+    }
+  ]
+}
