@@ -41,7 +41,8 @@ jobs:
           name: test-results
           path: tests/test-results/
 
-                - name: Send results to n8n webhook
+                - name: 44
+                to n8n webhook
         if: always()
         run: |
           curl -X POST ${{ secrets.N8N_WEBHOOK_URL }} \
